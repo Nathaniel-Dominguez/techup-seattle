@@ -8,8 +8,9 @@ const dataFile = require('./events_formatted.json')
 const stringData = JSON.stringify(dataFile);
 console.log(stringData);
 const events = JSON.parse(stringData);
-
 console.log(events.name)
+
+
 
 
 class App extends Component {
